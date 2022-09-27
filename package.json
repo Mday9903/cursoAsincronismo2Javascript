@@ -1,0 +1,28 @@
+{
+  "name": "cursoasincronismo2javascript",
+  "version": "1.0.0",
+  "description": "Curso Asincronismo 2 Platzi",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mday9903/cursoAsincrinismo2Javascript.git"
+  },
+  "keywords": [
+    "javascript",
+    "asincronismo"
+  ],
+  "author": "Marcos Day",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mday9903/cursoAsincrinismo2Javascript/issues"
+  },
+  "homepage": "https://github.com/Mday9903/cursoAsincrinismo2Javascript#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "type": "module"
+}
