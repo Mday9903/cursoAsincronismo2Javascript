@@ -4,7 +4,8 @@
   "description": "Curso Asincronismo 2 Platzi",
   "main": "index.js",
   "scripts": {
-    "callback": "node src/callback/challenge.js"
+    "callback": "node src/callback/challenge.js",
+    "deploy":"gh-pages -d src" 
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
     "node-fetch": "^3.2.10",
     "xmlhttprequest": "^1.8.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
